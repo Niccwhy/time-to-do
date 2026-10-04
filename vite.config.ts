@@ -5,6 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/time-to-do/",
   plugins: [
     react(),
     tailwindcss(),
@@ -18,7 +19,8 @@ export default defineConfig({
         theme_color: "#4f46e5",
         background_color: "#ffffff",
         display: "standalone",
-        start_url: "/",
+        start_url: "/time-to-do/",
+        scope: "/time-to-do/",
         lang: "zh-CN",
         "icons": [
           {
