@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- 圆角方形背景 -->
+  <rect width="512" height="512" rx="112" fill="#4f46e5"/>
+
+  <!-- 第一行：已完成，只保留勾 -->
+  <path
+    d="M132 128 L155 151 L195 111"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="26"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <line
+    x1="248" y1="128" x2="400" y2="128"
+    stroke="#ffffff" stroke-width="26" stroke-linecap="round"
+  />
+
+  <!-- 第二行：未完成，空圈 -->
+  <circle cx="160" cy="256" r="40" fill="none" stroke="#ffffff" stroke-width="26"/>
+  <line
+    x1="248" y1="256" x2="400" y2="256"
+    stroke="#ffffff" stroke-width="26" stroke-linecap="round"
+  />
+
+  <!-- 第三行：未完成，空圈 -->
+  <circle cx="160" cy="384" r="40" fill="none" stroke="#ffffff" stroke-width="26"/>
+  <line
+    x1="248" y1="384" x2="400" y2="384"
+    stroke="#ffffff" stroke-width="26" stroke-linecap="round"
+  />
+</svg>
